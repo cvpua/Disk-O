@@ -1,0 +1,19 @@
+version: '3'
+services:
+  server:
+    build: 
+      context: ./server
+      dockerfile: Dockerfile
+    image: disko:server
+    container_name: disko-server
+    ports: 
+      - "8085:8085"
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    image: disko:client
+    container_name: disko-client
+    ports:
+      - "8080:8080"
+        

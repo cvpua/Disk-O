@@ -1,0 +1,28 @@
+.role-list{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.role-item{
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.create-role{
+    margin: 50px 0px;
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkBox{
+    height: 30px;
+    width: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.manage{
+    margin-left: 250px;
+}

@@ -1,0 +1,11 @@
+#delete-modal{
+    margin: 20px 10px;
+    width: fit-content;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#delete-button{
+    padding: 10px 20px;
+}
